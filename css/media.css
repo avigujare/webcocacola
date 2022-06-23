@@ -1,0 +1,141 @@
+@media screen and (max-width:768px) {
+
+    #home {
+        display: none;
+    }
+
+    
+    .menu {
+        float: none;
+        width: 100%;
+        background-color: #000;
+        text-align: center;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+    }
+
+    section.header-bg-parent {
+        position: relative;
+        top: -123px;
+    }
+
+    .header-col1 {
+        float: none;
+        width: 100%;
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        text-align: center;
+    }
+
+    .header-col2 {
+        float: none;
+        height: 100vh;
+        width: 100%;
+        background-blend-mode: overlay;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .header-col1 h5 {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .header-col1 h2 {
+        color: #fff;
+        font-size: 36px;
+        line-height: 50px;
+        margin: 0px;
+    }
+
+    .header-col1 p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 0;
+        color: #fff;
+        padding: 10px;
+    }
+
+    button.common-btn {
+        padding: 13px 25px;
+        font-size: 12px;
+    }
+
+    .hedaer-bg-par-img {
+        display: none;
+    }
+
+    .common-h2 {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 0 60px;
+    }
+
+    .circle {
+        width: 120px;
+        margin: 6px 6px 20px;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .circle canvas {
+        vertical-align: top;
+        width: 90px !important;
+    }
+
+    .circle strong {
+        position: absolute;
+        top: 25px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+        font-size: 23px;
+        color: black;
+    }
+
+    
+    .blog-col {
+        float: none;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 45px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    #contact {
+        padding: 60px 0px;
+    }
+
+    .form-par {
+        background-image: linear-gradient(20deg, #ff841f 0%, #ff9721 57%);
+        padding: 30px 40px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer-col {
+        float: none;
+        width: 100%;
+        margin-right: 0%;
+        margin-top: 45px;
+        text-align: center;
+    }
+
+    .footer-2-col {
+        position: relative;
+        left: 0px;
+    }
+
+    hr.footer-hr {
+        margin: 30px 0px 0px;
+    }
+
+}
